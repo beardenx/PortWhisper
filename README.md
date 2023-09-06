@@ -14,10 +14,11 @@ To install PortWhisper, follow these steps:
    ```bash
    cd PortWhisper && chmod +x portwhisper.sh   
 
-3. Run The Script :
+3. Help Page :
 
    ```bash
-   ./portwhisper.sh --help [HELP PAGE] 
+   ./portwhisper.sh --help
+   ./portwhisper.sh -f
 
 4. Usage :
 
