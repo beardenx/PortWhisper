@@ -17,6 +17,6 @@ To install PortWhisper, follow these steps:
 3. Run The Script :
 
    ```bash
-   sudo ./portwhisper.sh <wordlist.txt> 
+   sudo ./portwhisper.sh <target.txt> 
 
 
