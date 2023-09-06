@@ -19,4 +19,15 @@ To install PortWhisper, follow these steps:
    ```bash
    ./portwhisper.sh --help [HELP PAGE] 
 
+4. Usage :
 
+   ```bash
+   Usage: ./portwhisper.sh [OPTIONS] [TARGETS]
+
+   Options:
+     -h, --help        Show this help page
+     -f, --file FILE   Specify an input file with a list of targets
+     -d, --direct      Directly specify targets on the command line
+
+   Targets can be IP addresses or domain names.
+   If both command-line targets and an input file are provided, both will be scanned.
