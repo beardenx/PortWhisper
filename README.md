@@ -8,7 +8,15 @@ To install PortWhisper, follow these steps:
 
    ```bash
    git clone https://github.com/beardenx/PortWhisper
-git clone https://github.com/beardenx/PortWhisper
-cd PortWhisper && chmod +x portwhisper.sh
-sudo ./portwhisper.sh
+
+2. Change Directory & Give Permission:
+
+   ```bash
+   cd PortWhisper && chmod +x portwhisper.sh   
+
+3. Run The Script :
+
+   ```bash
+   sudo ./portwhisper.sh <wordlist.txt> 
+
 
