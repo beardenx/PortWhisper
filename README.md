@@ -7,7 +7,7 @@ To install PortWhisper, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/beardenx/PortWhisper
+   git clone https://github.com/beardenx/PortWhisper.git
 
 2. Change Directory & Give Permission:
 
