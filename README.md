@@ -32,3 +32,7 @@ To install PortWhisper, follow these steps:
 
    Targets can be IP addresses or domain names.
    If both command-line targets and an input file are provided, both will be scanned.
+
+5. Sample :
+
+![GitHub Logo](https://github.com/beardenx/PortWhisper/blob/main/Image/Help%20Page.png)
