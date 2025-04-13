@@ -1,6 +1,6 @@
-# FastPortScan
+# PortWhisper V2
 
-FastPortScan is a simple and efficient Bash-based port scanner that uses `masscan` for quick detection of open ports and `curl` as a fallback for HTTP/HTTPS services.
+PortWhisper V2 is a simple and efficient Bash-based port scanner that uses `masscan` for quick detection of open ports and `curl` as a fallback for HTTP/HTTPS services.
 
 This tool is intended for network administrators, security analysts, or anyone needing a lightweight port scanning utility that handles multiple domains in parallel and provides real-time output.
 
@@ -36,8 +36,8 @@ sudo apt install masscan curl dnsutils
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/fastportscan.git
-cd fastportscan
+git clone https://github.com/beardenx/PortWhisper.git
+cd PortWhisper
 ```
 
 2. Add domains to `domains.txt` (one per line):
@@ -48,8 +48,8 @@ sub.example.org
 
 3. Run the script:
 ```bash
-chmod +x fastscan.sh
-./fastscan.sh
+chmod +x portwhisper.sh
+./portwhisper.sh
 ```
 
 4. The results will be displayed in the terminal and saved to:
@@ -64,8 +64,8 @@ scan_results.csv
 ```
 No  | Domain                        | IP              | Open Ports
 ----|-------------------------------|-----------------|-------------------------------
-1   | example.com                  | 93.184.216.34   | 80,443
-2   | sub.example.org             | 203.0.113.10    | 443
+1   | example.com                   | 93.184.216.34   | 80,443
+2   | sub.example.org               | 203.0.113.10    | 443
 ```
 
 ---
